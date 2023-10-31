@@ -1,0 +1,45 @@
+HTML
+Assignment 
+
+
+ 1.What  are inline and  block elements in HTML and the difference  between  them.  Name a few inline  elements and block elements.                                          
+A block element always begins on a new line, and browsers add a margin  before and after the element by default. A block element always occupies the entire available width.  These are 2 commonly used block elements :                                                                                                                          <p> and <div> 
+
+Here are few block elements : <video> <ul> <nav> <hr> <li>
+An inline element occupies space provided to it. It doesn't occupy the whole space as a block element. An inline element cannot contain a block element.                             
+Here are few inline elements : <b> <a> <img> <br>      
+
+Difference : 
+    Inline Element                       Block Element
+Uses the space that is required.    Occupies the entire available space(width).
+Cannot contain block elements.      Can contain inline elements.
+
+
+
+2.How  to work with images in HTML and explain in detail  <img />  tag important  attributes . 
+
+Images in HTML are displayed using img tag ( <img> ) . The images which are stored in the assets folder are used in this tag. 
+The syntax of this tag is : <img src="" alt="" /> 
+Here important attributes are “src’’ and “alt”. Where src means source of the image and alt means alternative to the image if the image is not displayed by any chance. 
+
+
+3.How  to create  lists in HTML.  
+Lists in HTML can be created using <ol> and <ul> tags. Where <ol> stands for ordered list and <ul> stands for unordered list. 
+List items are displayed using <li> tag. Each list item has its own <li> tag.
+Here is an example of creating a list in HTML :
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+
+
+  4. How  to interlink web  pages and navigate people  to other websites?
+  
+  Linking web pages is done with the help of the anchor tag <a href= “ ”> in HTML.
+  And navigation to those websites is done by href attribute where we should paste the url of the website or the target website. 
+ Here is an example : 
+
+   <a href= “https://www.google.com/”>Google</a>
+
+Above example when used in HTML code , navigates users to google site after clicking on it.
